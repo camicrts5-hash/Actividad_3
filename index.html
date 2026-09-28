@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Componente - Actividad 3</title>
+</head>
+<body>
+    <div class="carrusel">
+        <div class="atras">
+            <img id="atras" src="img/atras.jpg" alt="atras" loading="lazy">
+        </div>
+    </div>
+    
+    <div class="imagenes">
+        <div id="img">
+            <img class="img" src="img/img1.jpg" alt="imagen 1" loading="lazy">
+        </div>
+        
+        <div id="texto" class="texto">
+            <h3>Japón</h3>
+            <p>Lugares de Japón los cuales me gustaría visitar</p>
+            <button id="btn-modal" class="btn-info">Ver más información</button>
+        </div>
+    </div>
+
+    <!-- Ventana Modal oculta por defecto -->
+    <div id="modal-info" class="modal">
+        <div class="modal-contenido">
+            <span id="cerrar-modal" class="cerrar">&times;</span>
+            <h2 id="modal-titulo">Título</h2>
+            <p id="modal-texto">Descripción detallada...</p>
+        </div>
+    </div>
+
+    <div class="adelante" id="adelante">
+        <img src="img/adelante.jpg" alt="adelante" loading="lazy">
+    </div>
+
+    <div class="puntos" id="puntos">
+    </div>
+
+    <script src="js/componente.js"></script>
+</body>
+</html>
